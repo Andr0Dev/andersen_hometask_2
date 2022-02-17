@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homeworks.homework_two.HomeworkTwoActivity">
+
+    <Button
+        android:id="@+id/count"
+        android:layout_width="@dimen/count_btn_width"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/btn_margin_start"
+        android:layout_marginTop="@dimen/btn_margin_start"
+        android:layout_marginEnd="@dimen/btn_margin_start"
+        android:text="@string/count"
+        android:textSize="@dimen/text_size_small"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/zero"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/toast"
+        android:layout_width="@dimen/toast_btn_width"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_start"
+        android:text="@string/toast"
+        android:textSize="@dimen/text_size_medium"
+        app:layout_constraintBaseline_toBaselineOf="@+id/zero"
+        app:layout_constraintEnd_toStartOf="@+id/zero"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/zero"
+        android:layout_width="@dimen/width_tablet"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="@dimen/btn_margin_start"
+        android:backgroundTint="#5e5e5e"
+        android:text="@string/zero"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/count"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/toast"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/show_count"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#FFFF00"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/_0"
+        android:textAlignment="center"
+        android:textSize="@dimen/text_size_big"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/count" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".challenges.challenge_three.ProductActivity">
+
+    <Button
+        android:id="@+id/rice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rice"
+        android:layout_marginTop="@dimen/margin_top"
+        app:layout_constraintEnd_toStartOf="@+id/bread"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/products_label" />
+
+    <Button
+        android:id="@+id/apple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/apple"
+        android:layout_marginTop="@dimen/margin_top"
+        app:layout_constraintEnd_toStartOf="@+id/milk"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rice" />
+
+    <Button
+        android:id="@+id/fish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fish"
+        android:layout_marginTop="@dimen/margin_top"
+        app:layout_constraintEnd_toStartOf="@+id/juice"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/apple" />
+
+    <Button
+        android:id="@+id/cheese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:text="@string/cheese"
+        app:layout_constraintEnd_toStartOf="@+id/sausage"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fish" />
+
+    <Button
+        android:id="@+id/sweets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sweets"
+        android:layout_marginTop="@dimen/margin_top"
+        app:layout_constraintEnd_toStartOf="@+id/water"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cheese" />
+
+    <Button
+        android:id="@+id/bread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bread"
+        android:layout_marginTop="@dimen/margin_top"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/rice"
+        app:layout_constraintTop_toBottomOf="@+id/products_label" />
+
+    <Button
+        android:id="@+id/milk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/milk"
+        android:layout_marginTop="@dimen/margin_top"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/apple"
+        app:layout_constraintTop_toBottomOf="@+id/bread" />
+
+    <Button
+        android:id="@+id/juice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/juice"
+        android:layout_marginTop="@dimen/margin_top"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/fish"
+        app:layout_constraintTop_toBottomOf="@+id/milk" />
+
+    <Button
+        android:id="@+id/sausage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:text="@string/sausage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/cheese"
+        app:layout_constraintTop_toBottomOf="@+id/juice" />
+
+    <Button
+        android:id="@+id/water"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/water"
+        android:layout_marginTop="@dimen/margin_top"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/sweets"
+        app:layout_constraintTop_toBottomOf="@+id/sausage" />
+
+    <TextView
+        android:id="@+id/products_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/products"
+        android:textSize="@dimen/products_label_text_size"
+        android:layout_marginTop="@dimen/margin_top"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

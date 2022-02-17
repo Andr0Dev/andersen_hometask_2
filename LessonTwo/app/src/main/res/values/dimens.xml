@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_send_margin_bottom">16dp</dimen>
+    <dimen name="btn_margin_start">8dp</dimen>
+    <dimen name="btn_margin_end">8dp</dimen>
+    <dimen name="match_constraint_dimen">0dp</dimen>
+    <dimen name="marginTop_dimen">16dp</dimen>
+    <dimen name="margin_top">8dp</dimen>
+    <dimen name="margin_bottom">16dp</dimen>
+    <dimen name="margin_end">16dp</dimen>
+    <dimen name="margin_end_edited">8dp</dimen>
+    <dimen name="edit_text_start">8dp</dimen>
+    <dimen name="text_size">16sp</dimen>
+    <dimen name="text_size_hw_1">160sp</dimen>
+    <dimen name="text_size_message">60sp</dimen>
+    <dimen name="margin_start">8dp</dimen>
+    <dimen name="list_label_text_size">24sp</dimen>
+    <dimen name="list_item_text_size">16sp</dimen>
+    <dimen name="product_item_width">204dp</dimen>
+    <dimen name="products_label_text_size">24sp</dimen>
+    <dimen name="btn_margin_botom">16dp</dimen>
+    <dimen name="counter_margin_top">228dp</dimen>
+    <dimen name="btn_margin_bottom">24dp</dimen>
+    <dimen name="layout_padding">16dp</dimen>
+    <dimen name="uri_text_size">18sp</dimen>
+    <dimen name="scrollview_height">220dp</dimen>
+</resources>

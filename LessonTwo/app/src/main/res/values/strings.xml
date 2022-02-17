@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">Lesson Two</string>
+    <string name="send">Send</string>
+    <string name="message">Hello! %1$s</string>
+
+    <string name="tasks">Tasks</string>
+    <string name="challenges">Challenges</string>
+    <string name="homeworks">Homeworks</string>
+
+    <string name="challenge_one">Challenge One</string>
+    <string name="challenge_two">Challenge Two</string>
+    <string name="challenges_three">Challenge Three</string>
+
+    <string name="hometask_one">Homework One</string>
+    <string name="hometask_two">Homework Two</string>
+    <string name="hometask_three">Homework Three</string>
+
+    <string name="task_one">Task One</string>
+    <string name="task_two">Task Two</string>
+    <string name="task_three">Task Three</string>
+
+    <string name="text_one">Text One</string>
+    <string name="text_two">Text Two</string>
+    <string name="text_three">Text Three</string>
+
+    <string name="editText_main">Enter Your Message Here</string>
+    <string name="text_header">Message Received</string>
+    <string name="button_second">Reply</string>
+    <string name="editText_second">Enter Your Reply Here</string>
+    <string name="text_header_reply">Reply Received</string>
+
+    <string name="text_1">
+        New in Stable
+CameraX
+The CameraX library provides a unified API surface for accessing camera functionality across OS versions, including device-specific compatibility fixes and workarounds. Some of the latest improvements to the library address common feature requests, including support for adjusting exposure compensation and access to more detailed information about camera state and features. Additionally, camera settings like FPS range can now be changed via Camera2Interop while the camera is running. The library also brings support for the latest device and OS features, including high-dynamic-range preview, zoom ratio controls, and support for Android’s Do Not Disturb mode. Perhaps most importantly, though, the library has continued to address performance, resulting in faster image capture and faster initialization, especially on older devices.
+
+Hilt
+Hilt is Jetpack’s recommended dependency injection solution built on top of Dagger. As part of the transition to stable, Hilt’s ViewModel support has moved up into the core Hilt Android APIs and SavedStateHandle has been added as a default dependency available in the ViewModelComponent. Also, Hilt is now integrated with Navigation and Compose: you can obtain an annotated Hilt ViewModel that is scoped to a destination or the navigation graph itself. Developers have already started using Hilt in their apps. Read about their experience in this blog post.
+
+Paging 3.0
+The Paging library allows you to load and display small chunks of data to improve
+
+network and system resource consumption. This release features a complete rewrite in Kotlin with first-class support for coroutines and Flow, asynchronous loading with RxJava and Guava primitives, and overall improvements to the repository and presentation layers.
+
+The 3.0 release is a substantial improvement in usability over Paging 2, and the rewrite was planned with partial and staged migrations in mind so that developers can transition on their own schedules. Check out the Paging 3.0 documentation and the Paging 3.0 codelab for details and hands-on experience.
+    </string>
+    <string name="text_2">
+        The Activity class is a crucial component of an Android app, and the way activities are launched and put together is a fundamental part of the platform\'s application model. Unlike programming paradigms in which apps are launched with a main() method, the Android system initiates code in an Activity instance by invoking specific callback methods that correspond to specific stages of its lifecycle.
+
+This document introduces the concept of activities, and then provides some lightweight guidance about how to work with them. For additional information about best practices in architecting your app, see Guide to App Architecture.
+
+The concept of activities
+The mobile-app experience differs from its desktop counterpart in that a user\'s interaction with the app doesn\'t always begin in the same place. Instead, the user journey often begins non-deterministically. For instance, if you open an email app from your home screen, you might see a list of emails. By contrast, if you are using a social media app that then launches your email app, you might go directly to the email app\'s screen for composing an email.
+
+The Activity class is designed to facilitate this paradigm. When one app invokes another, the calling app invokes an activity in the other app, rather than the app as an atomic whole. In this way, the activity serves as the entry point for an app\'s interaction with the user. You implement an activity as a subclass of the Activity class.
+
+An activity provides the window in which the app draws its UI. This window typically fills the screen, but may be smaller than the screen and float on top of other windows. Generally, one activity implements one screen in an app. For instance, one of an app’s activities may implement a Preferences screen, while another activity implements a Select Photo screen.
+
+Most apps contain multiple screens, which means they comprise multiple activities. Typically, one activity in an app is specified as the main activity, which is the first screen to appear when the user launches the app. Each activity can then start another activity in order to perform different actions. For example, the main activity in a simple e-mail app may provide the screen that shows an e-mail inbox. From there, the main activity might launch other activities that provide screens for tasks like writing e-mails and opening individual e-mails.
+
+Although activities work together to form a cohesive user experience in an app, each activity is only loosely bound to the other activities; there are usually minimal dependencies among the activities in an app. In fact, activities often start up activities belonging to other apps. For example, a browser app might launch the Share activity of a social-media app.
+
+To use activities in your app, you must register information about them in the app’s manifest, and you must manage activity lifecycles appropriately. The rest of this document introduces these subjects.
+    </string>
+    <string name="text_3">
+       Nullable types and non-null type
+Kotlin\'s type system is aimed at eliminating the danger of null references, also known as The Billion Dollar Mistake.
+
+One of the most common pitfalls in many programming languages, including Java, is that accessing a member of a null reference will result in a null reference exception. In Java this would be the equivalent of a NullPointerException, or an NPE for short.
+
+The only possible causes of an NPE in Kotlin are:
+
+An explicit call to throw NullPointerException().
+
+Usage of the !! operator that is described below.
+
+Data inconsistency with regard to initialization, such as when:
+
+An uninitialized this available in a constructor is passed and used somewhere (a "leaking this").
+
+A superclass constructor calls an open member whose implementation in the derived class uses an uninitialized state.
+    </string>
+    <string name="toast">Say Hello</string>
+    <string name="count">Count</string>
+    <string name="_0">0</string>
+    <string name="shopping_list">Shopping List</string>
+    <string name="add_item">+</string>
+    <string name="products">Products</string>
+    <string name="rice">Rice</string>
+    <string name="apple">Apple</string>
+    <string name="fish">Fish</string>
+    <string name="cheese">Cheese</string>
+    <string name="sweets">Sweets</string>
+    <string name="bread">Bread</string>
+    <string name="milk">Milk</string>
+    <string name="juice">Juice</string>
+    <string name="water">Water</string>
+    <string name="sausage">Sausage</string>
+
+
+    <string name="edittext_uri">http://developer.android.com</string>
+    <string name="button_uri">Open Website</string>
+
+    <string name="edittext_loc">Golden Gate Bridge</string>
+    <string name="button_loc">Open Location</string>
+
+    <string name="edittext_share">\'Twas brillig and the slithy toves</string>
+    <string name="button_share">Share This Text</string>
+    <string name="share_text_with">Share this text with:</string>
+    <string name="button_launch_camera">Take a picture</string>
+
+    <string name="uri_label">URI:</string>
+    <string name="find_shop">Find shop</string>
+
+    <string name="implicit_intent">Implicit intent</string>
+    <string name="intent_receiver">Intent Receiver</string>
+</resources>

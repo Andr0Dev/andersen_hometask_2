@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Oleksandr/andersen_hometask_2/LessonTwo/app/src/main/res/layout-land/activity_counter.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/Oleksandr/andersen_hometask_2/LessonTwo/app/src/main/res/layout-land/activity_list.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/Oleksandr/andersen_hometask_2/LessonTwo/app/src/main/res/layout-land/activity_product_list.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/Oleksandr/andersen_hometask_2/LessonTwo/app/src/main/res/layout/activity_challenge_one.xml" value="0.17806484295845998" />
+        <entry key="..\:/Users/Oleksandr/andersen_hometask_2/LessonTwo/app/src/main/res/layout/activity_challenges_menu.xml" value="0.1527777777777778" />
+        <entry key="..\:/Users/Oleksandr/andersen_hometask_2/LessonTwo/app/src/main/res/layout/activity_choice.xml" value="0.33" />
+        <entry key="..\:/Users/Oleksandr/andersen_hometask_2/LessonTwo/app/src/main/res/layout/activity_counter.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Oleksandr/andersen_hometask_2/LessonTwo/app/src/main/res/layout/activity_homework_menu.xml" value="0.3131578947368421" />
+        <entry key="..\:/Users/Oleksandr/andersen_hometask_2/LessonTwo/app/src/main/res/layout/activity_homework_one.xml" value="0.3582474226804124" />
+        <entry key="..\:/Users/Oleksandr/andersen_hometask_2/LessonTwo/app/src/main/res/layout/activity_implicit_intents.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Oleksandr/andersen_hometask_2/LessonTwo/app/src/main/res/layout/activity_intent_receiver.xml" value="0.18034447821681865" />
+        <entry key="..\:/Users/Oleksandr/andersen_hometask_2/LessonTwo/app/src/main/res/layout/activity_launch_camera.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Oleksandr/andersen_hometask_2/LessonTwo/app/src/main/res/layout/activity_list.xml" value="0.25" />
+        <entry key="..\:/Users/Oleksandr/andersen_hometask_2/LessonTwo/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/Oleksandr/andersen_hometask_2/LessonTwo/app/src/main/res/layout/activity_message.xml" value="0.1" />
+        <entry key="..\:/Users/Oleksandr/andersen_hometask_2/LessonTwo/app/src/main/res/layout/activity_product.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Oleksandr/andersen_hometask_2/LessonTwo/app/src/main/res/layout/activity_product_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Oleksandr/andersen_hometask_2/LessonTwo/app/src/main/res/layout/activity_second.xml" value="0.24592391304347827" />
+        <entry key="..\:/Users/Oleksandr/andersen_hometask_2/LessonTwo/app/src/main/res/layout/activity_task_menu.xml" value="0.18034447821681865" />
+        <entry key="..\:/Users/Oleksandr/andersen_hometask_2/LessonTwo/app/src/main/res/layout/activity_task_one.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Oleksandr/andersen_hometask_2/LessonTwo/app/src/main/res/layout/activity_task_two.xml" value="0.1" />
+        <entry key="..\:/Users/Oleksandr/andersen_hometask_2/LessonTwo/app/src/main/res/layout/activity_tasks_menu.xml" value="0.1" />
+        <entry key="..\:/Users/Oleksandr/andersen_hometask_2/LessonTwo/app/src/main/res/layout/activity_text.xml" value="0.17806484295845998" />
+        <entry key="..\:/Users/Oleksandr/andersen_hometask_2/LessonTwo/app/src/main/res/layout/activity_toast.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
